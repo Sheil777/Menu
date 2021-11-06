@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+header {
+    background: url("bg.jpg") center no-repeat;
+    height: 100%;
+    background-size: cover;
+}
+
+.menu-overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+    transition: all .5s;
+}
+
+.menu li a {
+    display: block;
+    font-size: 3em;
+    font-weight: 700;
+    text-decoration: none;
+    color: #fff;
+    transition: .5s;
+}
+
+.menu li a:hover {
+    color: #e95787;/* pink; */
+    background-color: rgba(255,255,255, 0.2);
+}
+
+@media screen and (max-width: 980px) {
+   .menu li a {
+      font-size: 5em;
+   }
+}
+
+
+
+
+
+
+
